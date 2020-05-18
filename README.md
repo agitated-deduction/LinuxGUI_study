@@ -61,7 +61,7 @@ install packages
 sftp
 
 sftp-config.json
-```json
+```js
 {
     // The tab key will cycle through the settings when first created
     // Visit http://wbond.net/sublime_packages/sftp/settings for help
@@ -135,3 +135,20 @@ git 권장 commit message 형식
 2번째 줄 : 빈 칸
 3번째 줄 : 변경한 이유
 
+폰트 라이브러리
+sudo apt install libfreetype6-dev libsdl2-ttf-dev
+
+image라이브러리
+sudo apt install libjpeg9-dev libwebp-dev libtiff5-dev  (라즈베리파이에서 설치가 안됨)
+sudo apt install libsdl2-image-2.0.0 libsdl2-image-dev
+(png는 폰트 설치할때 같이 설치 됨)
+
+멀티미디어 믹서
+sudo apt install libmikmod-dev libfishsound1-dev libsmpeg-dev liboggz2-dev libflac-dev libfluidsynth-dev
+sudo apt install libsdl2-mixer-dev libsdl2-mixer-2.0-0 -y;
+
+sdl2 manual
+git clone https://github.com/haxpor/sdl2-manpage.git\
+
+cd sdl2-manpage
+sudo ./install.sh
